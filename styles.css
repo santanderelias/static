@@ -303,6 +303,26 @@ nav a:hover {
   color: #dfe9ff;
 }
 
+.site-footer {
+  padding: 88px 0 32px;
+  background:
+    linear-gradient(90deg, rgba(4, 16, 36, 0.85), rgba(4, 16, 36, 0.7)),
+    url('WALLPAPER.jpg') center/cover no-repeat;
+  color: #fff;
+}
+
+.site-footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.site-footer p {
+  color: rgba(255, 255, 255, 0.9);
+}
+
 @media (max-width: 920px) {
   nav {
     display: none;
