@@ -64,22 +64,15 @@ a {
 .brand {
   display: flex;
   align-items: center;
-  gap: 10px;
   font-weight: 700;
 }
 
-.brand-mark {
-  background: var(--primary);
-  color: #fff;
-  width: 48px;
-  height: 48px;
-  display: grid;
-  place-items: center;
-  border-radius: 12px;
-}
-
-.brand-text {
-  color: var(--text);
+.brand-logo {
+  display: block;
+  height: 54px;
+  width: auto;
+  max-width: 220px;
+  object-fit: contain;
 }
 
 nav {
